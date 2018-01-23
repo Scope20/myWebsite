@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<!--
+    For this project I designed a webpage to showcase my understanding of basic website design and styling (HTML/CSS)
+  
+    Project Criteria 
+        - Make sure HTML and CSS files pass an automated validation check.
+        - Logical use of container elements : div, head, body, img, break, paragraph etc.
+        - Use of 1 or more HTML classes on 2 or more related HTML elements
+        - include 1 or more images
+        - include 2 or more sections of text
+-->
+
+<html lang="en">
+    <head>    
+        <title>Artificial Neural Nets</title>
+        <link rel="stylesheet" href="myWebsite.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="contents">
+            <h1>Contents</h1>
+            <ul>
+                <li><a href="#section-1-1">What is an Artificial Neural Network?</a></li>
+                <li><a href="#section-1-2">How does an Artificial Neural Network learn?</a></li>
+                <li><a href="#section-1-3">What are Artificial Neural Networks used for?</a></li>
+            </ul>
+                
+            
+        </div>
+
+
+        <h1>Artificial Neural Networks</h1>
+        <div class="section">
+            <h2 id="section-1">Lesson 1</h2>
+            <div class="basicsANN" id="section-1-1"></div>
+            <div class="basicsANN-title">
+                <h3>What is an Artificial Neural Network?</h3>
+            </div>
+            <div class="basicsAFNN-description">
+                <p>
+                    <b>Artificial Neural Networks (ANNs)</b> are information-processing computer
+                    systems
+                    <br>
+                    inspired by biological neural networks found in the brains of
+                    animals.
+                    <br>
+                    The structures of ANNs vary but generally they are composed of a large
+                    number of
+                    <br>
+                    hierarchical, non-linear and highly interconnected nodes
+                    working together to solve
+                    <br>
+                    a specific problem. 
+                </p>
+                <img src="http://neuralnetworksanddeeplearning.com/images/tikz11.png" alt="unable to display image">
+            </div>
+        </div>
+
+        <div class="section">
+                <h2 id="section2-1">Lesson 2</h2>
+                <div class="basicsANN" id="section-1-2"></div>
+                <div class="basicsANN-title">
+                    <h3>How does an Artificial Neural Network learn?</h3>
+                </div>
+                <div class="basicsAFNN-description">
+                    <p>
+                    An ANNs main function is to recieve a set of inputs, perform progressively complex calculations, <br>
+                    and then use the output to solve a problem.
+                    </p>
+                    <p>
+                    In order to get an idea of how ANNs learn we first need to understand <b>Classification.</b><br>
+                    Classification is the process of categorizing a group of objects, while only using some basic data<br>features that describe them.
+                    </p>
+                    <p>As an example, if we trained a ANN to recognise different modes of transport and then gave it the<br> image below,
+                    it should be able to correctly classify each individual mode of transport and differentiate<br>one from the other.
+                    </p>
+                    <p>
+                    So how is a trained ANN able to do these kinds of tasks? Using our above example of transport recognition.<br>
+                    The ANN would recieve data at its input layer (an image of a car, train, boat or plane), this data would<br>
+                    move through subsequent layers (hidden layers) and at each layer it would be assigned a confidence score.
+                    <br>The further down the layers we get, the more weighted this score becomes, when it reaches the output layer<br>
+                    a final confidence score is assigned, this score determines whether the vehicle displayed in the data is a car,<br>train, boat or plane.
+                    </p>
+                    <p>
+                    Of course this example is limited to image recgonition, however the process can be extrapolated to any
+                    <br>process that requires highly complex, and repetitive pattern recognition.
+                    </p>
+                    <img src="http://im.hunt.in/cg/shimla/City-Guide/transportinShimla.jpg" alt="unable to display image">
+                </div>
+        </div>
+        
+        <div class="section">
+                <h2 id="section3-1">Lesson 3</h2>
+                <div class="basicsANN" id="section-1-3"></div>
+                <div class="basicsANN-title">
+                    <h3>What are Artificial Neural Networks used for?</h3>
+                </div>
+                <div class="basicsAFNN-description">
+                    <p>
+                    The usefulness of ANNs falls into two categories: as tools for solving problems that are inherently difficult<br>
+                    for both people and digital computers, and as experimental and conceptual models of something - namely, simulations. 
+                    </p>
+
+                    <p>
+                    Problem solving was the first real reason for intrest and investment in ANNs, for example Google uses an ANN to<br>better target Youtubes users "watch next" suggestions after videos.
+                    Shipping companies use them to minimize route<br>lengths over a complex scattering of destinations. Credit card companies use them to identify fraudulent transactions.<br>
+                    </p>
+                    <p>
+                    And this is just the tip of the iceberg, Googles photo-analysis algorithms are being continuously tranined and are able<br>to consistently tell cats from dogs in regular photographs.
+                    Natural language processing is another exciting front, both<br>translation and voice synthesis are reaching a point where we might be able to own a device that would allow real time<br>
+                    conversations between people speaking different languages. Google pixel-buds are an example of this kind of<br>technology today.
+                    </p>
+                    <p>
+                    Other notable achievements of ANNs include: Recognizing human emotions through facial expressions.<br>Reading a wide variety of cursive handwriting. Driving autonomously through busy streets.
+                    <br>Beating a grand master at chess or winning on Jeopardy!
+                    </p>
+                    <p>
+                    The other side of ANNs are simulations, particularly brain simulation. Brain simuation as it exists today is still a concept,<br> one firmly in its infancy.
+                    Current understanding of brain structure, and the computational power necessary to simulate it,<br> are nowhere close to what we’d need to do robust brain-science in a computer model.
+                    <br>There have been some efforts, namely <a href="https://en.wikipedia.org/wiki/Blue_Brain_Project">The Blue Brain Project</a>, that aimed to simulate certain aspects of brain function in
+                    <br>certain portions of the brain, but it's still early days.
+                    The exact reasons and goals for wanting to run a brain simulation<br>aren't yet fully defined but there are notable advantages should it be possible.
+                    </p>
+                    <p>
+                    For example, genetically modifying brains to have inherent changes built in could come under ethical scrutiny,<br> however performing such such tasks on simulated brains might be more palatable.
+                    <br>Also, ANNs can explore a far wider array of possibilities than medicine ever practically could, which one day could allow<br> scientists to test hypotheses without real-world consequences.
+                    </p>
+                    <img src="https://www.extremetech.com/wp-content/uploads/2015/09/sat-ai-head-640x353.jpg" alt="unable to display image">
+                </div>               
+        </div>    
+    </body>
+</html>
+
